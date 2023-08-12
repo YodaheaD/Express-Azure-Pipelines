@@ -21,3 +21,6 @@
 ##### 1.0 <--> Initial Release
 - A Express API written in TS using nodemon, cors, concurrently.
 - Has extra 'page' route in src.
+
+##### 2.0 <-> Update 
+- Added Winston Logger and env variables
