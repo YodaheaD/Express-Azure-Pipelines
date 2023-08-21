@@ -1,12 +1,17 @@
 import express, { Express, Request, Response } from 'express';
 import cors from "cors";
-import { pageRouter } from './src/page';
-import Logger from './src/utils/logger';
+import Logger from './utils/logger';
 import dotenv from 'dotenv';
+import cookieParser from 'cookie-parser';
 dotenv.config();
 const app:Express = express();
-const PORT = process.env.PORT;
 
+
+import { router as pageRouter } from './page';
+
+app.use(express.static('public'));
+//const PORT = process.env.PORT;
+app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
@@ -18,6 +23,6 @@ app.get('/', (req:Request, res:Response) => {
     res.send("Hello from Express Api")
 })
 
-app.listen(PORT, () => {
-    Logger.info(`Server running on port ${PORT}`);
+app.listen(8080, () => {
+    Logger.info(`Server running on port  8080`);
  })

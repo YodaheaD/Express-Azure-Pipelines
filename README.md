@@ -1,26 +1,44 @@
-## Express API TS boilerplate
+## Basic Express API deployed to Azure Web App Service
 - By: Yoda Daniel
 
 #### Details:
 
-- A boilerplate project for creating Express API's.
+- A small project for deploying an express app with one route to Azure Web app services platform written in Typescript. 
 
-#### Features:
+#### Get Started 
 
-- Typescript
-- nodemon
-- Cors
-- concurrently
-- Source directory with addition route 'page'.
-- .vscode/settings.json to ignore '.js' output files.
-- .gitignore for ignoring TS output files and others.
+1) clone repo and install dep.
+```
+git clone <this repo>
+
+npm install
+```
+
+2) Build TS 
+
+```
+npm run build
+```
+
+3) Build a Web App in Azure and Deploy 
+
+###### Build Web App in Azure
+
+[!Images3](/images/Azure-Build-App.png)
 
 
-#### Versions list:
+###### Deploy to web app in VS Code
 
-##### 1.0 <--> Initial Release
-- A Express API written in TS using nodemon, cors, concurrently.
-- Has extra 'page' route in src.
+[!Images3](/images/DeployToApp.png)
 
-##### 2.0 <-> Update 
-- Added Winston Logger and env variables
+
+#### App Deployed
+
+Visiting the app via web browser
+
+[!Images1](/images/Proof-BasePage.png)
+
+
+Sending Http request with Thunder Client
+
+[!Images2](/images/Proof-PageRoute-Postman.png)
