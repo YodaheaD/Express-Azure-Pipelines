@@ -1,15 +1,15 @@
-## Basic Express API deployed to Azure Web App Service
+# Basic Express API deployed to Azure Web App Service
 - By: Yoda Daniel
 
-#### Details:
+## Details:
 
 - A small project for deploying an express app with one route to Azure Web app services platform written in Typescript. 
 
-#### Get Started 
+## Get Started 
 
 1) clone repo and install dep.
 ```
-git clone <this repo>
+git clone https://github.com/YodaheaD/Express-Azure-Web-API-Example.git
 
 npm install
 ```
@@ -24,21 +24,21 @@ npm run build
 
 ###### Build Web App in Azure
 
-[!Images3](/images/Azure-Build-App.png)
+![Images3](/images/Azure-Build-App.png)
 
 
 ###### Deploy to web app in VS Code
 
-[!Images3](/images/DeployToApp.png)
+![Images3](/images/DeployToApp.png)
 
 
-#### App Deployed
+## Testing the apps deployment 
 
-Visiting the app via web browser
+### Visiting the app via web browser
 
-[!Images1](/images/Proof-BasePage.png)
+![Images1](/images/Proof-BasePage.png)
 
 
-Sending Http request with Thunder Client
+### Sending Http request with Thunder Client
 
-[!Images2](/images/Proof-PageRoute-Postman.png)
+![Images2](/images/Proof-PageRoute-Postman.png)
