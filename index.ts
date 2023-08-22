@@ -1,13 +1,13 @@
 import express, { Express, Request, Response } from 'express';
 import cors from "cors";
-import Logger from './utils/logger';
+import Logger from './src/utils/logger';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 dotenv.config();
 const app:Express = express();
 
 
-import { router as pageRouter } from './page';
+import { router as pageRouter } from './src/page';
 
 app.use(express.static('public'));
 //const PORT = process.env.PORT;
