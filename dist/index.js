@@ -19,7 +19,7 @@ app.use(express_1.default.urlencoded({ extended: true }));
 app.use((0, cors_1.default)());
 app.use('/page', page_1.router);
 app.get('/', (req, res) => {
-    res.send("Hello from Express Api");
+    res.send("Hello from Express Api in Azure Pipeline");
 });
 app.listen(8080, () => {
     logger_1.default.info(`Server running on port  8080`);
