@@ -9,13 +9,13 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '7e307af7-3914-4452-8a6d-356b9b804a24'
+  azureSubscription: ' '
 
   # Web app name
-  webAppName: 'expresswebyoda'
+  webAppName: ' '
 
   # Environment name
-  environmentName: 'expresswebyoda'
+  environmentName: ' '
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -66,7 +66,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: expresswebyoda'
+            displayName: 'Azure Web App Deploy:  '
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
