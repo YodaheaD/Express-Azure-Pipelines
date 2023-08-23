@@ -25,12 +25,12 @@ npm run build
 ( make sure to run the build before deploying )
 
 
-###### Upload code to Azure Repo
+### Upload code to Azure Repo
 
 ![Images3](/images/Azure-Build-App.png)
 
 
-###### Create a new pipeline
+### Create a new pipeline
 
 ![Images3](/images/DeployToApp.png)
 
