@@ -21,7 +21,7 @@ npm install
 npm run build
 ```
 
-3) Build a Web App in Azure and Deploy 
+3) Move on to Azure Setup
 ( make sure to run the build before deploying )
 
 
