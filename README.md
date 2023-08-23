@@ -3,13 +3,14 @@
 
 ## Details:
 
-- A small project for deploying an express app with one route to Azure Web app services platform written in Typescript. 
+- Building and deploying an Express API in Azure Pipelines.
+
 
 ## Get Started 
 
 1) clone repo and install dep.
 ```
-git clone https://github.com/YodaheaD/Express-Azure-Web-API-Example.git
+git clone https://github.com/YodaheaD/Azure-Pipeline.git
 
 npm install
 ```
@@ -21,24 +22,22 @@ npm run build
 ```
 
 3) Build a Web App in Azure and Deploy 
+( make sure to run the build before deploying )
 
-###### Build Web App in Azure
+
+###### Upload code to Azure Repo
 
 ![Images3](/images/Azure-Build-App.png)
 
 
-###### Deploy to web app in VS Code
+###### Create a new pipeline
 
 ![Images3](/images/DeployToApp.png)
 
-
-## Testing the apps deployment 
 
 ### Visiting the app via web browser
 
 ![Images1](/images/Proof-BasePage.png)
 
 
-### Sending Http request with Thunder Client
-
-![Images2](/images/Proof-PageRoute-Postman.png)
+ 
