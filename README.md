@@ -22,14 +22,21 @@ npm run build
 ```
 
 3) Move on to Azure Setup
-( make sure to run the build before deploying )
 
 
 ### Upload code to Azure Repo
 
+- Connect your Azure Repo to the local codebase.
+
 ![Images3](/images/Azure-Build-App.png)
 
-
+### Create a Web App Service in Azure and set up Connection between Pipeline and App Service
+- Create a Web App service.
+  
+- Then in Devops, go to Project Settings > Piple:Service Connection > New Service Connection > Use Azure Resource Manager
+  
+- Once filled out and validated, get the connection name used and make the "azureSubscription" in the YML file that value.
+  
 ### Create a new pipeline
 
 ![Images3](/images/DeployToApp.png)
