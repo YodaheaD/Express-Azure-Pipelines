@@ -9,6 +9,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
+  # To setup go to DevOps > Project settings > Service Connections, and get the connection name
   azureSubscription: ' '
 
   # Web app name
